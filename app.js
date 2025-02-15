@@ -19,7 +19,6 @@ const defaultTasks = [
     { time: "19:40-20:10", task: "数学练习" }
   ];
 
-  ];
   
   
   // 加载任务数据并显示
