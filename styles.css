@@ -1,0 +1,68 @@
+/* 基本字体样式 */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf1f7;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #ff6ec7;
+  font-size: 2em;
+}
+
+/* 表格样式 */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #f1c0c6;
+}
+
+th {
+  background-color: #ff6ec7;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+td input[type="text"] {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #f1c0c6;
+  background-color: #fff;
+  color: #555;
+  font-size: 1em;
+}
+
+input[readonly] {
+  background-color: #eaeaea;
+}
+
+/* 当前任务提示 */
+#current-task {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #ff6ec7;
+  font-weight: bold;
+}
+/* 当前时间显示样式 */
+#current-time {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #4c6ef5;
+  font-weight: bold;
+}
